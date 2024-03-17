@@ -5,5 +5,10 @@
    --gray: #e5e7eb;
    --white-h: #f9faf8;
    --white-p: #e5e7eb;
-   --dark-font c: #1f2937;
+   --dark-font: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
