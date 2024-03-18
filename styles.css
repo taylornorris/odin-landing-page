@@ -8,7 +8,61 @@
    --dark-font: #1f2937;
 }
 
+/* basic styles */
+
+html {
+    font-family: Roboto, sans-serif; 
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar styles */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 72px;
+    padding: 0 120px;
+    background: var(--darkblue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-h);
+}
+
+.nav-links ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link a {
+    color: var(--white-p);
+    margin-left: 24px;
+}
+
+/* wrapper for uniform padding  */
+
+.wrapper {
+    padding: 120px;
+}
+
