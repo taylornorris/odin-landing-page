@@ -108,6 +108,7 @@ a {
 }
 
 /* info styles */
+/* need to adjust flex to grow */
 
 .info {
     background: #fff;
@@ -170,3 +171,5 @@ a {
     font-size: 18px;
     font-weight: 500;
 }
+
+/* CTA styles */
