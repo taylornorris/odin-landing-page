@@ -30,6 +30,17 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    display: block;
+    text-align: center;
+    color: var(--white-h);
+    font-weight: 700;
+    width: 124px;
+    padding: 8px 0;
+    background: var(--lightblue);
+    border-radius: 8px;
+}
+
 /* navbar styles */
 
 .navbar {
@@ -60,9 +71,35 @@ a {
     margin-left: 24px;
 }
 
-/* wrapper for uniform padding  */
+/* hero styles */
 
-.wrapper {
+.hero {
     padding: 120px;
+    background: var(--darkblue);
+    display: flex;
+    justify-content: space-between;
 }
 
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 47%;
+}
+
+.hero-header {
+    color: var(--white-h);
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.hero-p {
+    color: var(--white-p);
+    font-size: 18px;
+}
+
+.hero-right {
+    display: block;
+    width: 47%;
+    height: auto;
+}
