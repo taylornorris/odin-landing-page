@@ -57,7 +57,7 @@ a {
 
 .header-logo {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--white-h);
 }
 
@@ -89,7 +89,7 @@ a {
 
 .hero-header {
     color: var(--white-h);
-    font-weight: 800;
+    font-weight: 700;
     font-size: 48px;
 }
 
@@ -109,7 +109,7 @@ a {
 .info-header {
     color: var(--dark-font);
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     padding: 48px 0;
 }
