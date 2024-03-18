@@ -103,3 +103,41 @@ a {
     width: 47%;
     height: auto;
 }
+
+/* info styles */
+
+.info-header {
+    color: var(--dark-font);
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding: 48px 0;
+}
+
+.info-tile-block {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 72px;
+}
+
+.info-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.info-tile img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-tile p {
+    padding-top: 8px;
+    font-weight: 300;
+}
