@@ -73,6 +73,12 @@ a {
 .nav-link a {
     color: var(--white-p);
     margin-left: 24px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.nav-link a:hover {
+    background: var(--lightblue);
 }
 
 /* hero styles */
