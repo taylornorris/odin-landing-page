@@ -22,7 +22,7 @@ html {
 }
 
 .section {
-    padding: 0 120px;
+    padding: 0 240px;
 }
 ul {
     list-style: none;
@@ -57,7 +57,7 @@ a {
     top: 0;
     width: 100%;
     height: 72px;
-    padding: 0 120px;
+    padding: 0 240px;
     background: var(--darkblue);
     display: flex;
     justify-content: space-between;
@@ -89,7 +89,7 @@ a {
 /* hero styles */
 
 .hero {
-    padding: 120px;
+    padding: 120px 240px;
     background: var(--darkblue);
     display: flex;
     justify-content: space-between;
