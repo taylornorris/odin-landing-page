@@ -131,7 +131,7 @@ a {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    padding: 48px 0;
+    padding: 72px 0;
 }
 
 .info-tile-block {
@@ -146,13 +146,13 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 150px;
+    width: 200px;
 }
 
 .info-tile img {
     display: block;
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -188,8 +188,7 @@ a {
 
 .cta {
     background: #fff;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding: 72px 316px;
 }
 
 .cta-box {
@@ -203,6 +202,13 @@ a {
     display: flex;
     flex-direction: column;
     flex: 3;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1
 }
 
 .cta-header {
