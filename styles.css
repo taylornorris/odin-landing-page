@@ -45,6 +45,11 @@ a {
     border-radius: 8px;
 }
 
+.btn:hover {
+    background: var(--white-h);
+    color: var(--lightblue);
+}
+
 /* navbar styles */
 
 .navbar {
