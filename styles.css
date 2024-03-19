@@ -173,3 +173,37 @@ a {
 }
 
 /* CTA styles */
+
+.cta {
+    background: #fff;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.cta-box {
+    background: var(--lightblue);
+    border-radius: 10px;
+    display: flex;
+    padding: 48px 144px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.cta-header {
+    color: var(--white-h);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cta-p {
+    color: var(--white-p);
+    font-size: 13px;
+}
+
+.cta-button {
+    border: 2px solid var(--white-h);
+}
