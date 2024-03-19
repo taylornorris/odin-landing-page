@@ -207,3 +207,16 @@ a {
 .cta-button {
     border: 2px solid var(--white-h);
 }
+
+/* footer styles */
+
+footer {
+    background: var(--darkblue);
+    color: var(--white-p);
+    font-size: 13px;
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
